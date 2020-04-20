@@ -1,0 +1,306 @@
+*{
+    margin: auto;
+}
+body{
+    background-color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background-color: rgb(52,58,64);
+    height:  40px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 10px;
+    margin-bottom: 25px;
+    position: fixed;
+    border: 2px solid;
+}
+header h3{
+    padding-top: 5px;
+    padding-left: 40px;
+    font-family: serif;
+    float: left; 
+}
+header h3 a{
+    color: white;
+}
+header h3 a:hover{
+    text-decoration: none;
+}
+header nav {
+    float: right;
+    padding-right: 30px;
+    padding-top: 6px;
+}
+header nav ul{
+    list-style-type: none;
+    margin-right: 5px;
+}
+header nav ul li{
+    float: left;
+    padding-right: 10px;
+    font-size: larger;
+}
+a{
+    color: silver;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: line-through;
+}
+#courses{
+    overflow: hidden;
+    float: left;
+    height: 2150px;
+    padding-top: 25px;
+    background-color: white;
+    width: 100%;
+}
+#courses ul{
+    overflow: hidden;
+}
+#courses ul h1{
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+#courses a{
+    color: black;
+}
+#courses a:hover{
+    color: black;
+}
+#courses ul li{
+    float: left;
+    border: 1px solid;
+    height: 210px;
+    width: 270px;
+    margin-top: 20px;
+    padding-top: 260px;
+    padding-right: 10px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+#courses ul li h4{
+    text-align: center;
+}
+#courses ul li p{
+    padding: 10px 40px;
+    color: rgb(52,58,64);
+    text-align: right;
+}
+#site1{
+    background: url('Images/ethrai.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+    margin-left: 50px;
+}
+#site2{
+    background: url('Images/roaq.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+}
+#site3{
+    background: url('Images/edrak.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+}
+#site4{
+    background: url('Images/doroob.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+}
+#site5{
+    background: url('Images/barmej.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+    margin-left: 50px;
+}
+#site6{
+    background: url('Images/moe.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+}
+#site7{
+    background: url('Images/socpa.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+}
+#site8{
+    background: url('Images/tmken.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+}
+#site9{
+    background: url('Images/google.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+    margin-left: 50px;
+}
+#site10{
+    background: url('Images/raj7i.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+}
+#site11{
+    background: url('Images/RS.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+}
+#site12{
+    background: url('Images/EP.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+}
+#site13{
+    background: url('Images/forsa.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+    margin-left: 50px;
+}
+#site14{
+    background: url('Images/IBS.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+}
+#site15{
+    background: url('Images/zadi.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+}
+#site16{
+    background: url('Images/elm.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+}
+footer{
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: rgb(40,45,50);
+}
+footer a{
+    color: silver;
+}
+footer a:hover{
+    color: white;
+}
+#footer1{
+    overflow: hidden;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+#footer1 h4{
+    color: white;
+}
+#footer1 ul{
+    width: 200px;
+    float: left;
+    padding-top: 20px;
+}
+#footer1 ul li{
+    padding-top: 6px;
+}
+#footer2{
+    overflow: hidden;
+    margin-right: 505px;
+}
+#footer2 ul{
+    float: right;
+    text-align: center;
+}
+#footer2 ul li{
+    float: left;
+    padding-right: 40px;
+}
+#companInfo h4{
+    color: white;
+    text-align: left;
+}
+#companInfo p{
+    color: silver;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 19px;
+}
+#CopyRight{
+    margin-top: 50px;
+    text-align: center;
+    color: silver;
+}
+.icons{
+    margin-top: 50px;
+    width: 35px;
+    height: 35px;
+}
+.goBtn{
+    background: rgb(52,58,64);
+    color: silver;
+    padding: 10px 10px;
+    width: 100px;
+    margin-top: 38px;
+    margin-left: 95px;
+}
+.goBtn:hover , .goBtn2:hover , .goBtn3:hover{
+    background: black;
+}
+.goBtn2{
+    background: rgb(52,58,64);
+    color: silver;
+    padding: 10px 10px;
+    width: 100px;
+    margin-left: 95px;
+}
+.goBtn3{
+    background: rgb(52,58,64);
+    color: silver;
+    padding: 10px 10px;
+    width: 100px;
+    margin-left: 95px;
+    margin-top: 56px;
+}
+.goBtn4{
+    background: rgb(52,58,64);
+    color: silver;
+    padding: 10px 10px;
+    width: 100px;
+    margin-left: 95px;
+    margin-top: 93px;
+}
+.goBtn5{
+    background: rgb(52,58,64);
+    color: silver;
+    padding: 10px 10px;
+    width: 100px;
+    margin-left: 95px;
+    margin-top: 3px;
+}
+.goBtn6{
+    background: rgb(52,58,64);
+    color: silver;
+    padding: 10px 10px;
+    width: 100px;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+

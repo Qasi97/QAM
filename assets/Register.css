@@ -1,0 +1,73 @@
+*{
+    margin: auto;
+}
+.body{
+    background: rgba(109, 108, 108, 0.178);
+}
+#empty{
+    height: 130px;
+    width: 100%;
+}
+#Register{
+    background: white;
+    width: 400px;
+    height: 474px;
+    padding-top: 80px;
+    /* margin-top: 80px; */
+    margin-bottom: 80px;
+}
+#Register form{
+    margin-left: 110px;
+}
+#Register form h2{
+    padding-left: 25px;
+}
+#Register form img{
+    margin-left: 20px;
+    width: 150px;
+    height: 120%;
+    margin-bottom: 25px;
+}
+#lbtn{
+    width: 125px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 26px;
+    background-color: rgb(33,37,41);
+    color: white;
+}
+#un , #pw , #email{
+    margin-top: 10px;
+    width: 140px;
+    height: 13px;
+    padding: 6px 12px;
+}
+#un{
+    background: url('images/user.png') no-repeat;
+    background-position: left;
+    text-align: center;
+}
+#pw{
+    background: url('images/password.png') no-repeat;
+    background-position: left;
+    text-align: center;
+}
+#email{
+    background: url('images/email.png') no-repeat;
+    background-position: left;
+    text-align: center;
+}
+.ulogin , .ulogin:hover{
+    color: black;
+}
+.R_F{
+    margin-top: 10px;
+    text-align: center;
+    padding-right: 115px;
+}
+#rm{
+    margin-top: 5px;
+    margin-right: 6px;
+    margin-left: 50px;
+}

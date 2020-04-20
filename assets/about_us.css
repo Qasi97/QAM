@@ -1,0 +1,192 @@
+*{
+    margin: auto;
+}
+body{
+    background-color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background-color: rgb(52,58,64);
+    height:  40px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 10px;
+    margin-bottom: 25px;
+    position: fixed;
+    border: 2px solid;
+}
+header h3{
+    padding-top: 5px;
+    padding-left: 40px;
+    font-family: serif;
+    float: left; 
+}
+header h3 a{
+    color: white;
+}
+header h3 a:hover{
+    text-decoration: none;
+}
+header nav {
+    float: right;
+    padding-right: 30px;
+    padding-top: 6px;
+}
+header nav ul{
+    list-style-type: none;
+    margin-right: 5px;
+}
+header nav ul li{
+    float: left;
+    padding-right: 10px;
+    font-size: larger;
+}
+
+a{
+    color: silver;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: line-through;
+}
+#about_us{
+    overflow: hidden;
+    float: left;
+    height: 700px;
+    padding-top: 25px;
+    background-color: white;
+    width: 100%;
+}
+#about_us ul{
+    overflow: hidden;
+    padding-top: 100px;
+}
+#about_us a{
+    color: black;
+}
+#about_us a:hover{
+    color: black;
+}
+#about_us ul li{
+    float: left;
+    border: 1px solid;
+    height: 100px;
+    width: 270px;
+    margin-top: 50px;
+    padding-top: 260px;
+    padding-right: 10px;
+    margin-right: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+#about_us ul li h4{
+    text-align: center;
+}
+#about_us ul li p{
+    padding: 10px 40px;
+    color: rgb(52,58,64);
+}
+#me{
+    background: url('Images/dev.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+    margin-left: 350px
+}
+#mybros{
+    background: url('Images/supp.png') no-repeat top center ;
+    background-size: 230px 230px;
+    background-color: white;
+    background-position-y: 12px;
+}
+footer{
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: rgb(40,45,50);
+}
+footer a{
+    color: silver;
+}
+footer a:hover{
+    color: white;
+}
+#footer1{
+    overflow: hidden;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+#footer1 h4{
+    color: white;
+}
+#footer1 ul{
+    width: 200px;
+    float: left;
+    padding-top: 20px;
+}
+#footer1 ul li{
+    padding-top: 6px;
+}
+#footer2{
+    overflow: hidden;
+    margin-right: 505px;
+}
+#footer2 ul{
+    float: right;
+    text-align: center;
+}
+#footer2 ul li{
+    float: left;
+    padding-right: 40px;
+}
+#companInfo h4{
+    color: white;
+    text-align: left;
+}
+#companInfo p{
+    color: silver;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 19px;
+}
+#CopyRight{
+    margin-top: 50px;
+    text-align: center;
+    color: silver;
+}
+.icons{
+    margin-top: 50px;
+    width: 35px;
+    height: 35px;
+}
+.goBtn{
+    background: rgb(52,58,64);
+    color: silver;
+    padding: 10px 10px;
+    width: 100px;
+    margin-top: 38px;
+    margin-left: 95px;
+}
+.goBtn:hover , .goBtn2:hover , .goBtn3:hover{
+    background: black;
+}
+.goBtn2{
+    background: rgb(52,58,64);
+    color: silver;
+    padding: 10px 10px;
+    width: 100px;
+    margin-left: 95px;
+}
+.goBtn3{
+    background: rgb(52,58,64);
+    color: silver;
+    padding: 10px 10px;
+    width: 100px;
+    margin-left: 95px;
+    margin-top: 56px;
+}
+
